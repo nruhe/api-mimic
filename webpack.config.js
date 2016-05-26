@@ -82,7 +82,7 @@ module.exports = [
           include: [
             path.resolve(__dirname, '/src/app')
           ],
-          loader: 'html'
+          loader: 'raw'
         },
         {
           test: /\.js$/,
