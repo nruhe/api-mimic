@@ -78,11 +78,8 @@ module.exports = [
           loader: 'raw'
         },
         {
-          test: /\index.html/,
-          include: [
-            path.resolve(__dirname, '/src/app')
-          ],
-          loader: 'raw'
+          test: /\.html/,
+          loader: 'html'
         },
         {
           test: /\.js$/,
