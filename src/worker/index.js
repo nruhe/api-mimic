@@ -1,6 +1,7 @@
 'use strict';
 
-import index from '../app/index.html';
+import offlineHTML from '../app/index.html';
+//import html from '../app/app.js';
 
 self.addEventListener('install', event => {
 
@@ -22,7 +23,7 @@ self.addEventListener('fetch', event => {
        event.request.headers.get('accept').includes('text/html')))
   ) {
     event.respondWith(
-      new Response(index, {
+      new Response(offlineHTML, {
           headers: {'Content-Type': 'text/html'}
       })
     );
