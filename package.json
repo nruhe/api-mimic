@@ -1,7 +1,7 @@
 {
   "name": "api-mimic",
   "version": "1.0.0",
-  "description": "A proxy tool designed to mimic an actual API server using HTML Service Workers.",
+  "description": "A client side API mocking server solution implementing HTML5 service workers.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
