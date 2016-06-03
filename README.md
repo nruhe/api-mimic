@@ -1,4 +1,4 @@
-# api-mimic [![Project Status: WIP - Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
+# api-mimic [![Project Status: Concept - Minimal or no implementation has been done yet.](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept)
 
 >A client side API mocking server solution implementing HTML5 service workers.
 
@@ -22,6 +22,9 @@ Will api-mimic support API Blueprint format?
 
 Will this work on both HTTPS and HTTP protocols?
 >No, since the utility relies on service-workers, only requests over HTTPS will be captured.
+
+Why are there no unit tests?!
+>I swear! That will be my first goal as soon as I'm finished with the working PoC!
 
 ## License
 
