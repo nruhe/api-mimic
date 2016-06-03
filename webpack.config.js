@@ -10,7 +10,7 @@ module.exports = [
   // ################################################
   {
     devtool: 'eval-source-map',
-    entry:  __dirname + '/src/app/index.js',
+    entry:  ['babel-polyfill', __dirname + '/src/app/index.js'],
     output: {
       path: __dirname + '/build',
       filename: 'app.js'
